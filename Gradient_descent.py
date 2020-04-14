@@ -1,13 +1,11 @@
 
 import matplotlib
-matplotlib.use('Qt5Agg')
-import matplotlib
-from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 import matplotlib.pyplot as plt
 import time
 from sklearn.datasets import load_boston
-
+import pandas as pd
+import plotly.express as px
 from plotly import offline as py
 import plotly.tools as tls
 py.init_notebook_mode()
